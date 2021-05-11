@@ -551,6 +551,7 @@ header {
 
 .footer-social-link {
   width: 270px;
+  margin-right: 30px;
 }
 
 .footer-social-link .logo {
@@ -581,7 +582,7 @@ header {
 
 .footer-address-contact {
   width: 270px;
-  margin-right: 70px;
+  margin-right: 30px;
 }
 
 .contact-list-social-link {
@@ -624,9 +625,6 @@ header {
   margin-top: 20px;
 }
 
-.footer-input-field {
-}
-
 .footer-input-form {
   background: transparent;
   display: flex;
@@ -654,11 +652,14 @@ header {
 
   min-width: 200px;
   margin-left: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
   letter-spacing: 0.06em;
-  padding: 12px 28px;
+  padding: 8px 26px;
   cursor: pointer;
 
-  color: #ffffff;
+  color: var(--main-color-white);
 
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
